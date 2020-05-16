@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TelegramEmbed from './components/vue-telegram-embed'
+import TelegramEmbed from "./components/vue-telegram-embed";
 
 export default {
   name: "App",
