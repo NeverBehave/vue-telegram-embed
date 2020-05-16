@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <TelegramEmbed link="telegram/83" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import TelegramEmbed from './components/vue-telegram-embed'
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    TelegramEmbed
   }
 };
 </script>

@@ -1,10 +1,24 @@
 {
   "name": "vue-telegram-embed",
-  "version": "0.1.0",
-  "private": true,
+  "author": "NeverBehave <i@never.pet>",
+  "version": "0.0.0-development",
+  "description": "Vue component for Telegram Embed post",
+  "private": false,
+  "main": "dist/VueTelegramEmbed.umd.min.js",
+  "unpkg": "dist/VueTelegramEmbed.umd.min.js",
+  "browser": {
+    "./sfc": "src/vue-telegram-embed.vue"
+  },
+  "files": [
+    "/dist/*",
+    "/src/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name VueTelegramEmbed ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -23,6 +37,21 @@
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeverBehave/Vue-Telegram-Embed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NeverBehave/Vue-Telegram-Embed/issues"
+  },
+  "homepage": "https://github.com/NeverBehave/Vue-Telegram-Embed",
+  "keywords": [
+    "vue",
+    "component",
+    "telegram",
+    "embed"
+  ],
+  "license": "MIT",
   "eslintConfig": {
     "root": true,
     "env": {

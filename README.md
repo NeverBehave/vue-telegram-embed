@@ -1,5 +1,7 @@
 # vue-telegram-embed
 
+Component for Telegram Embed content
+
 ## Project setup
 ```
 yarn install
