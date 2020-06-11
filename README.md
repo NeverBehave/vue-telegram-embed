@@ -22,8 +22,6 @@ Vue.component('vue-telegram-embed', VueTelegramEmbed)
 
 You may now use the component in your markup
 
-You may now use the component in your markup
-
 ```vue
 <template>
     <div id="app">
